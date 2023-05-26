@@ -1,4 +1,4 @@
-(footprint "Heatsink_Stonecold_HS-132_32x14mm_2xFixation1.5mm" (version 20221018) (generator pcbnew)
+(footprint "Heatsink_Stonecold_HS-132_32x14mm" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "Heatsink, StoneCold HS")
   (tags "heatsink")
@@ -7,7 +7,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 96266a59-e9e8-4c20-95ec-d5eef247cba7)
   )
-  (fp_text value "Heatsink_Stonecold_HS-132_32x14mm_2xFixation1.5mm" (at 0 10) (layer "F.Fab")
+  (fp_text value "Heatsink_Stonecold_HS-132_32x14mm" (at 0 10) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 6aae7559-580f-4880-a766-b1d1b1768e76)
   )
@@ -175,8 +175,6 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 96e2b01c-cf07-4672-b308-edeca711643f))
   (fp_line (start 15.75 8.75) (end 15.75 7.25)
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 5193391d-1446-4011-ab61-d1f3954770bc))
-  (pad "" np_thru_hole circle (at -8.89 0.05) (size 3 3) (drill 1.4) (layers "F&B.Cu" "*.Mask") (tstamp 2df28d69-1379-4a9b-9270-f58c4be510d3))
-  (pad "" np_thru_hole circle (at 8.89 0.05) (size 3 3) (drill 1.4) (layers "F&B.Cu" "*.Mask") (tstamp 31960357-d1b0-46cb-a0f2-787181dd7ce4))
   (model "${KICAD6_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_Stonecold_HS-132_32x14mm_2xFixation1.5mm.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
